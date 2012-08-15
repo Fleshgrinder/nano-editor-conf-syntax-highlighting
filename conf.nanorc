@@ -1,4 +1,4 @@
-﻿# /usr/share/nano/conf.nanorc
+# /usr/share/nano/conf.nanorc
 
 syntax "conf" "\.(conf|config)$"
 
