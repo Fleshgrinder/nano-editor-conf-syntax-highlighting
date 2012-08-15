@@ -3,12 +3,10 @@
 #
 # nano catch all syntax-highlighting for configuration files.
 #
-# ALL KUDOS GO TO THE ORIGINAL AUTHOR!
-#
 # @link https://bbs.archlinux.org/viewtopic.php?id=133595
 # ----------------------------------------------------------------------
 
-syntax "conf" "(\.(conf|config|cfg|cnf|rc|lst|list|defs|ini|desktop|mime|types|preset|cache|seat|service|htaccess)$|(^|/)(\w*crontab|mirrorlist|group|hosts|passwd|rpc|netconfig|shadow|fstab|inittab|inputrc|protocols|sudoers)$|conf.d/|.config/)"
+syntax "conf" "\.(conf|config)$"
 
 # default text
 color brightmagenta "^.*$"
@@ -18,14 +16,11 @@ icolor brightblue "(^|\s|=)(default|true|false|on|off|yes|no)(\s|$)"
 icolor brightcyan "^\s*(set\s+)?[A-Z0-9_\/\.\%\@+-]+\s*([:]|\>)"
 # commands
 color brightblue "^\s*set\s+\<"
-# punctuation
-color brightblue "[.]"
 # numbers
 color brightred "(^|\s|[[/:|<>(){}=,]|\])[-+]?[0-9](\.?[0-9])*%?($|\>)"
 # keys
 icolor brightcyan "^\s*(\$if )?([A-Z0-9_\/\.\%\@+-]|\s)+="
 # punctuation
-color brightblue "/"
 color brightwhite "(\]|[()<>[{},;:=])"
 color brightwhite "(^|\[|\{|\:)\s*-(\s|$)"
 # section headings
