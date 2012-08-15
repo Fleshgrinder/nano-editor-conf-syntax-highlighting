@@ -1,4 +1,4 @@
-nano-editor-conf-syntax-highlighting
+﻿nano-editor-conf-syntax-highlighting
 ====================================
 
 nano editor catch all syntax-highlighting for configuration files.

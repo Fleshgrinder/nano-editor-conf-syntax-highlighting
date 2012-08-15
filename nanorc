@@ -1,4 +1,5 @@
 ﻿# /etc/nanorc
+
 set historylog
 set nonewlines
 set nowrap
@@ -7,6 +8,7 @@ set smooth
 set suspend
 set tabsize 2
 set tabstospaces
+
 include "/usr/share/nano/nanorc.nanorc"
 include "/usr/share/nano/c.nanorc"
 include "/usr/share/nano/css.nanorc"
