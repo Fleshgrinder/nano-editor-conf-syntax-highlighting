@@ -1,10 +1,4 @@
-# ----------------------------------------------------------------------
 # /usr/share/nano/conf.nanorc
-#
-# nano catch all syntax-highlighting for configuration files.
-#
-# @link https://bbs.archlinux.org/viewtopic.php?id=133595
-# ----------------------------------------------------------------------
 
 syntax "conf" "\.(conf|config)$"
 
